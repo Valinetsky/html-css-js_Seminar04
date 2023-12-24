@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a,
+button {
+	all: unset;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	font-style: normal;
+	text-align: left;
+}
+
+.top {
+	width: 1162px;
+	margin: 0 auto;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 75px;
+	margin-bottom: 45px;
+	font-size: 14px;
+}
+
+.header__menu {
+	display: flex;
+	margin-top: 11px;
+	margin-bottom: 12px;
+}
+
+.point {
+	display: inline-block;
+	margin-right: 33px;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.point:last-child {
+	margin-right: 0;
+}
+
+.point_active {
+	font-style: bold;
+	font-weight: 700;
+	color: #F25822;
+}
+
+.top__content {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.title {
+	font-size: 60px;
+	line-height: 70px;
+	margin-bottom: 29px;
+}
+
+.text {
+	line-height: 23px;
+	color: #888888;
+}
+
+.buttons {
+	padding: 39px 0 0 2px;
+}
+
+.button {
+	font-size: 15px;
+	line-height: 18px;
+	color: #AAAAAA;
+	padding: 15px 36px 16px 35px;
+	border-radius: 50px;
+	margin-right: 35px;
+}
+
+.button_active {
+	background: #F25822;
+	box-shadow: 4px 4px 8px 0px #F2582233;
+	color: #FFF;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 259px;
+	padding-bottom: 96px;
+}
